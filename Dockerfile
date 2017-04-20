@@ -3,7 +3,7 @@ FROM tensorflow/tensorflow:latest
 RUN pip install Flask==0.12.1 keras==2.0.3 image==1.5.5 h5py==2.7.0
 
 # Launchbot labels
-LABEL name.launchbot.io="machine-learning-demystified"
+LABEL name.launchbot.io="Nature of Code: Intelligence and Learning"
 LABEL workdir.launchbot.io="/usr/workdir"
 LABEL 8888.port.launchbot.io="Jupyter Notebook"
 LABEL 6006.port.launchbot.io="TensorBoard"
